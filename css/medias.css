@@ -182,6 +182,9 @@
     section#cursos details[open] summary::before{
         content: "-";
     }
+    section#cursos details img{
+        margin-left: -60px;
+    }
     section#contato{
         background-color: rgb(219, 215, 215);
         padding: 9px;
