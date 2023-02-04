@@ -171,7 +171,7 @@ section#cursos details[open] summary::before{
 section#cursos details img{
     margin-left: 60px;
     border-radius: 10px;
-    box-shadow: 0 5px 5px 10px;
+    box-shadow: 0 2px 2px 3px;
 }
 section#contato{
     display: flex;
