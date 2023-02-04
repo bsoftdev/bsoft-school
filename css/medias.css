@@ -183,7 +183,7 @@
         content: "-";
     }
     section#cursos details img{
-        margin-left: -2px;
+        margin-left: px;
     }
     section#contato{
         background-color: rgb(219, 215, 215);
