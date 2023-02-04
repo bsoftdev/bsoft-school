@@ -168,6 +168,9 @@ section#cursos details[open] summary::before{
     margin: 3px;
     content: '-';
 }
+section#cursos summary img{
+    margin-left: 50px;
+}
 section#contato{
     display: flex;
     flex-wrap: wrap;
