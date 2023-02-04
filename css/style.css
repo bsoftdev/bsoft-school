@@ -169,7 +169,7 @@ section#cursos details[open] summary::before{
     content: '-';
 }
 section#cursos details img{
-    margin-left: 50px;
+    margin-left: 80px;
 }
 section#contato{
     display: flex;
