@@ -168,7 +168,7 @@ section#cursos details[open] summary::before{
     margin: 3px;
     content: '-';
 }
-section#cursos summary img{
+section#cursos details img{
     margin-left: 50px;
 }
 section#contato{
