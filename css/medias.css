@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+@media only screen and (max-width:760px){
+ 
+    *{
+        font-family: "Open Sans";
+    }
+    header{
+        width: 100%;
+        height: 100vh;
+        background-color: hsl(212, 65%, 28%);
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    header div#sociais{
+        display: none;
+    }
+    header div#logo{
+        width: 100%;
+        height: 10vh;
+        color: white;
+        background-color: hsl(212, 89%, 21%);
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: -73px;
+    }
+    header div#logo h1{
+        text-transform: uppercase;
+        margin-bottom: 2px;
+        font-size: 13pt;
+    }
+    button{
+        display: block;
+        background-color: transparent;
+        border: 0;
+        cursor: pointer;
+    }
+    button img{
+        width: 30px;
+    }
+    header div#logo span{
+        color: rgb(194, 191, 189);
+        font-style: italic;
+        font-size: 10pt;
+    }
+    header nav{
+        width: 100%;
+
+    }
+    header  nav#menu{
+        width: 100%;
+        background-color: hsl(212, 77%, 12%);
+        overflow: hidden;
+        height: 0;
+        
+    }
+    header  nav#menu ul{
+        width: 100%;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    header  nav#menu ul li{
+        width: 100%;
+        height: 30px;
+        text-align: center; 
+        margin-right: 100px;
+    }
+    header  nav#menu ul li a{
+         width: 100%;
+         text-decoration: none;
+         color: white;
+         text-transform: uppercase;
+         font-size: 10px;
+    }
+    header nav#menu ul li :hover{
+        border-bottom:none;
+        padding: none;
+    }
+    header article{
+        padding: 8px;
+        width: 100%;
+    }
+    header article h2{
+      width: 100%;
+      text-align: center;
+      font-size: 12pt;
+    }
+    header article p{
+        font-size: 9pt;
+        width: 100%;
+        text-align: center;
+        color: white;
+        padding: 2px;
+        text-transform: uppercase;
+    }
+    header article#ende{
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        margin-top: -300px;
+        font-size: 9pt;
+        color: rgb(194, 191, 189);
+        
+    }
+    section img, header article img{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+        font-size: 10.5pt;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+      
+    }
+    section h2{
+      width: 90;
+       padding: 4px;
+       font-size: 8pt;
+       text-transform: uppercase;
+       color: rgb(18, 84, 170);
+       border-radius: 5px;
+      
+    }
+    hr{
+        display: none;
+    }
+   
+    section#sobre h2{
+        width: 90%;
+      
+    }
+    section#sobre article img{
+        width: 50%; 
+    }
+    section#sobre article p{
+        width:87%;
+        margin-right: 10px;
+    }
+   
+    section p{
+        width: 99%;
+        text-align: justify;
+        margin-top: 20px;
+        font-weight: normal;
+        padding: 5px;
+    }
+    section article{
+        width: 100%;  
+    }
+   
+    section#cursos article details{ 
+         padding: 1px 5px;
+    }
+    section#cursos h2, section#cursos p {
+        margin-right: 10px;
+        width: 90%;
+    }
+    section#cursos summary{
+        height: 15px; 
+        background-color: hsl(212, 89%, 21%);
+        border-radius: 8px;
+        font-size: 9pt;
+        font-variant: normal;
+        color: white;
+    }
+    section#cursos summary::before{
+        content: "+";
+        margin: 5px;
+    }
+    section#cursos details[open] summary::before{
+        content: "-";
+    }
+    section#contato{
+        background-color: rgb(219, 215, 215);
+        padding: 9px;
+        border-radius: 5px;
+        width: 100%;
+    }
+    section#contato p{
+        font-size: 10pt;
+    }
+    section#contato p:nth-last-of-type(2){
+        margin-bottom: -12px;
+    }
+    section#contato article.foto img,section#sobre article img{
+        width: 50%;
+        margin-top: 30px;
+    }
+    form{
+        width: 100%; 
+        margin-top: 30px;
+    }
+    form div{
+        margin:5px
+    }
+   
+    section#contato article#formu input{
+        display: grid;
+        height: 26px;
+        width: 90%;
+     }
+     section#contato article.foto img{
+        width: 70%;
+        margin-top: 30px;
+        position:relative;
+    }
+    section#contato article#formu textarea{
+        margin: 10px -1px;
+        width: 90%;
+        height: 30px;
+    }
+    section .cont{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 15px;
+      font-size: 9pt;
+    }
+    section .cont img{
+        width: 15px;
+    }
+    section form #btns{
+        margin-top: 10px;
+    }
+    section form .btn{
+        margin: 5px;
+        height: 35px;
+        background-color: hsl(212, 89%, 21%);   
+        color: white;
+    }
+    section form label{
+        font-size: 10pt;
+        color:hsl(212, 89%, 21%);
+        margin: 2px;
+    }
+    footer{
+        width: 100%;
+        height: 20vh;
+        background-color: hsl(212, 89%, 21%);
+        padding: 5px;
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: -60px;
+    }
+    footer img{
+        width: 30px;
+        margin: 10px; 
+    }
+    footer span{
+        text-align: center;
+        font-size: 10pt;
+        color: #ccc;
+    }
+}
