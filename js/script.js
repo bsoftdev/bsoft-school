@@ -31,7 +31,7 @@ menu.addEventListener('click',() =>{
         navegacao.style.height = '24vh'
         navegacao.style.transform = 'rotate(360deg)'
         navegacao.style.transition = '.6s ease-in-out'
-        navegacao.style.marginTop ='-470px' 
+        navegacao.style.marginTop ='-105vh' 
 })
 
 // QUANDO O USUÁRIO CLICAR EM QUALQUER ITEM DO MENU, VAI DESAPARECER OS ITENS DO MENU
